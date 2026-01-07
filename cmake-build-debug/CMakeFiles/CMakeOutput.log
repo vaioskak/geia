@@ -1,0 +1,62 @@
+The target system is: Generic -  - 
+The host system is: Windows - 10.0.26100 - AMD64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: C:/Program Files/JetBrains/CLion 2022.3.2/bin/mingw/bin/gcc.exe 
+Build flags: ;
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.exe"
+
+The C compiler identification is GNU, found in "C:/Users/kakae/Documents/bosch_code_demo/Embedded_Platform/cmake-build-debug/CMakeFiles/3.24.2/CompilerIdC/a.exe"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: C:/Program Files/JetBrains/CLion 2022.3.2/bin/mingw/bin/g++.exe 
+Build flags: ;
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.exe"
+
+The CXX compiler identification is GNU, found in "C:/Users/kakae/Documents/bosch_code_demo/Embedded_Platform/cmake-build-debug/CMakeFiles/3.24.2/CompilerIdCXX/a.exe"
+
+Checking whether the ASM compiler is GNU using "--version" matched "(GNU assembler)|(GCC)|(Free Software Foundation)":
+gcc.exe (GCC) 11.2.0
+Copyright (C) 2021 Free Software Foundation, Inc.
+This is free software; see the source for copying conditions.  There is NO
+warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+
+Determining if the C compiler works passed with the following output:
+Change Dir: C:/Users/kakae/Documents/bosch_code_demo/Embedded_Platform/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f Makefile cmTC_93ce3/fast && C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe  -f CMakeFiles\cmTC_93ce3.dir\build.make CMakeFiles/cmTC_93ce3.dir/build
+mingw32-make[1]: Entering directory 'C:/Users/kakae/Documents/bosch_code_demo/Embedded_Platform/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_93ce3.dir/testCCompiler.c.obj
+C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\gcc.exe   -fdiagnostics-color=always -o CMakeFiles\cmTC_93ce3.dir\testCCompiler.c.obj -c C:\Users\kakae\Documents\bosch_code_demo\Embedded_Platform\cmake-build-debug\CMakeFiles\CMakeTmp\testCCompiler.c
+Linking C executable cmTC_93ce3
+"C:\Program Files\JetBrains\CLion 2022.3.2\bin\cmake\win\x64\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_93ce3.dir\link.txt --verbose=1
+C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\gcc.exe CMakeFiles/cmTC_93ce3.dir/testCCompiler.c.obj -o cmTC_93ce3 
+mingw32-make[1]: Leaving directory 'C:/Users/kakae/Documents/bosch_code_demo/Embedded_Platform/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the CXX compiler works passed with the following output:
+Change Dir: C:/Users/kakae/Documents/bosch_code_demo/Embedded_Platform/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f Makefile cmTC_e2e0e/fast && C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe  -f CMakeFiles\cmTC_e2e0e.dir\build.make CMakeFiles/cmTC_e2e0e.dir/build
+mingw32-make[1]: Entering directory 'C:/Users/kakae/Documents/bosch_code_demo/Embedded_Platform/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_e2e0e.dir/testCXXCompiler.cxx.obj
+C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE   -fdiagnostics-color=always -o CMakeFiles\cmTC_e2e0e.dir\testCXXCompiler.cxx.obj -c C:\Users\kakae\Documents\bosch_code_demo\Embedded_Platform\cmake-build-debug\CMakeFiles\CMakeTmp\testCXXCompiler.cxx
+Linking CXX executable cmTC_e2e0e
+"C:\Program Files\JetBrains\CLion 2022.3.2\bin\cmake\win\x64\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_e2e0e.dir\link.txt --verbose=1
+C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE CMakeFiles/cmTC_e2e0e.dir/testCXXCompiler.cxx.obj -o cmTC_e2e0e 
+mingw32-make[1]: Leaving directory 'C:/Users/kakae/Documents/bosch_code_demo/Embedded_Platform/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+
